@@ -1,6 +1,10 @@
 const nama = "Gabriel";
 let hobi = "maen";
 
-hobi = "\u263a";
+hobi = "terbang";
 
-console.log(`${nama} ${hobi}`);
+function getnama() {
+    return nama;
+}
+
+console.log(getnama());
